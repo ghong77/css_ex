@@ -1,0 +1,56 @@
+* {
+    font-family:굴림체; 
+}
+h1 {
+    color:red; 
+    background-color:orange; 
+    border:2px solid red; 
+    padding:20px; 
+    border-radius:50px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+h1:hover {
+  background-color:red;
+  color:orange;
+}
+p {
+  font-weight:bold;
+  text-align:center;
+}
+li {
+  text-decoration:underline;
+}
+h1#next {
+  color:blue;
+  background-color:skyblue;
+  border:2px solid blue;
+}
+h1#next:hover {
+  color:skyblue;
+  background-color:blue;
+}
+p#later {
+  color: gray;
+}
+li.inner {
+  text-decoration:none;
+  color:gray;
+}
+h1#middle {
+  color:green;
+  background-color: yellowgreen;
+  border: 2px solid green;
+}
+h1#middle:hover {
+  color: yellowgreen;
+  background-color: green;
+}
+#later, .inner {
+  font-weight:bold;
+}
+h3 div {
+  color:red;
+}
+h3 > div {
+  color: green;
+}
